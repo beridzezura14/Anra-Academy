@@ -43,6 +43,8 @@ function Learn() {
                 duration: 1,
                 scrollTrigger: {
                     trigger: ".head",
+                    start: "top 80%",
+
                 },
             
             }
@@ -59,6 +61,7 @@ function Learn() {
                 stagger: 0.5,
                 scrollTrigger: {
                     trigger: ".fade_in",
+                    start: "top 80%",
                 },
             
             }
@@ -73,6 +76,8 @@ function Learn() {
                 ease: "back.out(1.7)",
                 scrollTrigger: {
                     trigger: ".fade_in-2",
+                    start: "top 80%",
+
                 },
             }
         )
@@ -96,7 +101,7 @@ function Learn() {
                         </div>
                         <p className="mt-6 font-georgian text-white">კურსის განმავლობაში შენ შეისწავლი ვებ-საიტების შექმნის სრულ პროცესს ნულიდან</p>
                     </div>
-                    <button className="mt-4 underline py-2 px-8 bg-[#F3ECE2] text-[#2B384C] font-pantonmtav3 hover:opacity-80">სილაბუსი</button>
+                    {/* <button className="mt-4 underline py-2 px-8 bg-[#F3ECE2] text-[#2B384C] font-pantonmtav3 hover:opacity-80">სილაბუსი</button> */}
                 </div>
                 <div className="mt-10 ">
                     {

@@ -3,6 +3,30 @@
 @tailwind utilities;
 
 
+
+
+
+.loading_logo{
+  animation: loading 2.7s linear; 
+}
+
+@keyframes loading{
+  0%{
+    opacity: 0;
+    margin-left: -6rem;
+  }
+  50%{
+    opacity: 1;
+    margin-left: 0rem;
+  }
+  100%{
+    opacity: 0;
+    margin-left: 6rem;
+  }
+}
+
+
+
 .box{
   animation: width 0.8s ease;
 }
@@ -104,13 +128,26 @@
   }
 }
 
-.blob {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  background: #00ffd0;
-  border-radius: 50%;
-  pointer-events: none;
-  mix-blend-mode: difference;
-  transition: transform 0.2s ease;
+
+
+.container{
+  position: relative;
+  max-width: 100%;
+  height: 400dvh;
 }
+
+.child{
+  position: sticky;
+  height: 100dvh;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.child:nth-child(even){
+  background-color: aquamarine;
+}
+
