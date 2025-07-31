@@ -14,7 +14,7 @@ function Header() {
         <div className='main-header'>
             <div className="header">
                 <div className="logo text-transparent bg-clip-text bg-gradient-to-r from-[#2B384C] to-[#643434]">
-                    ANRA Academy
+                    ANRA Studio
                 </div>
 
                 <div className={`navbar ${active ? 'active' : ''}`}>

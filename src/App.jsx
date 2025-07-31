@@ -10,7 +10,7 @@ function App() {
 
   const [loading, setLoading] = useState(true);
 
-  const company = "anra academy"
+  const company = "ANRA Studio"
 
 
   useEffect(() => {
